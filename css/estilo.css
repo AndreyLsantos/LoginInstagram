@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, ul, li, a, p{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(250, 250, 250);
+}
+.content-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    margin: 130px auto;
+}
+.img-well{
+    max-height: 600px;
+}
+.img-well img{
+    width: 450px;
+}
+.login-bar{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(190, 190, 190);
+    background: white;
+    margin: 100px auto;
+    height: 350px;
+    width: 550px;
+}
+.logoinst{
+    margin: 0 auto;
+    color: black;
+}
+.logoinst img{
+    max-width: 200px;
+}
+.foto-user{
+    margin: 0 auto;
+}
+.foto-user img{
+    border-radius: 100px;
+    margin: -15px auto;
+    max-width: 100px;
+}
+.links-login{
+    display: flex;
+    margin: 25px auto;
+    flex-direction: column;
+}
+.links-login button{
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: rgb(0, 132, 255);
+}
+.links-login p, a{
+    margin: 50px auto;
+}
+.links-login p{
+    color: black;
+    font-size: 14px;
+}
+.links-login a{
+    font-weight: bold;
+    font-size: 14px;
+    color:rgb(0, 132, 255);
+}
+.img-well img:nth-child(2){
+    position: relative;
+    clear: both;
+    bottom:518px;
+    left: 150px;
+    max-width: 238px;
+}
